@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
+    <script>
+
+
+
+    </script>
+
+
+</head>
+
+<body>
+
+    <header class="container mt-1">
+        <img class="logo mx-auto d-block" src="assets/img/logo_blanco_v2.png" width="90">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-5">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Usuarios</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://www.facebook.com"><i
+                            class="bi bi-facebook"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="http://www.instagram.com"><i
+                            class="bi bi-instagram"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="http://www.twitter.com"><i class="bi bi-twitter"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-6">
+                <form>
+
+                    <h6 class="fw-bold">Datos Personales</h6>
+
+
+                    <div class="form-group">
+                        <!-- Full Name -->
+                        <label for="full_name_id" class="control-label">RUT</label>
+                        <input type="text" class="form-control" id="rut" name="rut" placeholder="xxxxxxxx-x">
+                    </div>
+
+                    <div class="form-group">
+                        <!-- Full Name -->
+                        <label for="full_name_id" class="control-label">Nombre completo</label>
+                        <input type="text" class="form-control" id="nombre_completo" name="full_name"
+                            placeholder="Exequiel Arce">
+                    </div>
+
+                    <div class="form-group">
+                        <!-- Full Name -->
+                        <label for="full_name_id" class="control-label">Fecha nacimiento</label>
+                        <input type="date" class="form-control" id="nombre_completo" name="nombre_completo"
+                            placeholder="">
+                    </div>
+
+                    <div class="form-group">
+                        <!-- Street 1 -->
+                        <label for="street1_id" class="control-label">Dirección</label>
+                        <input type="text" class="form-control" id="direccion" name="street1"
+                            placeholder="Calle Número">
+                    </div>
+
+
+                    <div class="form-group">
+                        <!-- City-->
+                        <label for="city_id" class="control-label">Ciudad</label>
+                        <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Santiago">
+                    </div>
+
+                    <div class="form-group">
+                        <!-- State Button -->
+                        <label for="state_id" class="control-label">Comuna</label>
+                        <select class="form-control" id="state_id">
+                            <option value="AL">La Florida</option>
+                            <option value="AK">Coquimbo</option>
+                            <option value="AZ">La Serena</option>
+                            <option value="AR">Melipilla</option>
+                            <option value="CA">Antofagasta</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <!-- Zip Code-->
+                        <label for="zip_id" class="control-label">Codigo Postal</label>
+                        <input type="text" class="form-control" id="cod_postal" name="cod_postal" placeholder="#####">
+                    </div>
+
+
+                    <div class="form-group">
+                        <!-- Zip Code-->
+                        <label for="zip_id" class="control-label">Subir Foto</label>
+                        <input type="file" class="form-control" id="foto" name="foto" placeholder="#####">
+                    </div>
+
+
+                    <div class="form-group">
+                        <!-- Submit Button -->
+                        <button type="button" class="btn btn-success mt-2 float-end" onclick="location.href='form_datos_academicos.html';">Siguiente</button> 
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-lg-5">
+        <a class="text-center d-block" href="index.html">&#169; 2021 TODOYA!!!</a>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <header class="container mt-1">
+        <img class="logo mx-auto d-block" src="assets/img/logo_blanco_v2.png" width="90">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-5">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Usuarios</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://www.facebook.com"><i
+                            class="bi bi-facebook"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="http://www.instagram.com"><i
+                            class="bi bi-instagram"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="http://www.twitter.com"><i class="bi bi-twitter"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="row justify-content-center align-items-center">
+
+            <div class="col-6">
+                <form>
+                    <h6 class="fw-bold">Datos Academicos</h6>
+
+                    <div class="form-group">
+                        <!-- Full Name -->
+                        <label for="full_name_id" class="control-label">Estudios</label>
+                        <input type="text" class="form-control" id="estudios" name="estudios"
+                            placeholder="Ingrese estudios formales">
+                    </div>
+
+                    <div class="form-group">
+                        <!-- Full Name -->
+                        <label for="full_name_id" class="control-label">Area de Interes</label>
+                        <input type="text" class="form-control" id="area_interes" name="area_interes"
+                            placeholder="En que le gustarias trabajar">
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <!-- Street 1 -->
+                        <label for="street1_id" class="control-label">Experiencias</label>
+                        <input type="text" class="form-control" id="experiencia" name="experiencia"
+                            placeholder="Registre su experiencia en el area de interes">
+                    </div>
+
+                    <div class="form-group">
+                        <!-- Zip Code-->
+                        <label for="zip_id" class="control-label">Subir Curriculum</label>
+                        <input type="file" class="form-control" id="curriculum" name="curriculum" placeholder="#####">
+                    </div>
+
+
+
+
+                    <div class="form-group">
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary float-end mt-2">Registrarse</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-lg-5">
+        <a class="text-center d-block" href="index.html">&#169; 2021 TODOYA!!!</a>
+    </div>
+
+</body>
+
+</html>

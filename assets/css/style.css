@@ -1,0 +1,188 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(19, 3, 48);
+    color: rgb(233, 240, 243);
+    
+    
+}
+
+header {
+    margin: auto;
+    padding: auto
+}
+
+img.logo {
+    display: block;
+    margin: auto;
+}
+
+.cabecera {
+    margin: auto 0;
+    position: absolute;
+}
+
+.navmenu {
+    /*border: rgb(136, 243, 13) solid;*/
+    /*width: 1000px;*/
+    display: block;
+    /*padding: auto 0;*/
+    margin: -60px 0px 0px 750px;
+    /*padding: 0px 0px 0px 50px;*/
+    /*text-align: left;*/
+}
+
+li {
+    display: inline;
+    padding: 0px 0px 0px 1px;
+}
+
+.navmenua {
+    text-decoration: none;
+}
+
+.navmenua:link {
+    color: rgb(0, 12, 0);
+}
+
+.navmenua:visited {
+    color: white;
+}
+
+.navmenua:hover {
+    color: yellow;
+}
+
+.navmenua:active {
+    color: red;
+}
+
+#formulario {
+    width: 500px;
+    height: 430px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.navform {
+    text-align: center;
+}
+
+.navformul {
+    /*display: inline-block;*/
+    background-color: silver;
+}
+
+.navformli {
+    border-left: rgb(254, 255, 255) solid 2px;
+}
+
+.navformlir {
+    border-right: rgb(254, 255, 255) solid 2px;
+}
+
+a.navformlia {
+    text-decoration: none;
+}
+
+a.navformlia:a.link {
+    color: black;
+}
+
+a.navformlia:a.visited {
+    color: black;
+}
+
+form {
+    margin-top: 30px;
+}
+
+form label {
+    width: 72px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+form input[type="search"] {
+    width: 500px;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+
+form select {
+    width: 500px;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin: auto 0;
+    text-align: center;
+    width: 500px;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+
+.enter {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.centrar_texto {
+    text-align: center;
+}
+
+#video {
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#servicios {
+    width: 900px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#servicios table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#servicios th, td {
+    width: 25%;
+    text-align: center;
+    /*border: 1px solid #000;*/
+}
+
+#servicios .odd th, .odd td {
+    background: rgb(49, 4, 248)
+ }
+
+ #servicios caption {
+    font-weight: bold;
+    font-style: italic;
+ }
+
+.btn_verde {
+    background-color: green;
+    width: 200px;
+    color: honeydew;
+    border: none;
+    font-weight: bold;
+}
+
+footer{
+    padding-top: 10px;
+
+background-color: black;
+
+}
